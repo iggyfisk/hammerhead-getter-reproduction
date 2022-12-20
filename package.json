@@ -1,0 +1,14 @@
+{
+  "name": "hammerhead-getter-setter-reproduction",
+  "version": "1.0.0",
+  "description": "Reproduces a bug in testcafe-hammerhead",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "testcafe": "^2.1.0"
+  },
+  "scripts": {
+    "start": "parcel serve index.html",
+    "test": "testcafe --debug-on-fail chrome test.ts"
+  }
+}
